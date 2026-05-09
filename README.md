@@ -2,7 +2,7 @@ The LuxMarket Inventory Dashboard
 ---
 ### 1. Project Brief
 
-The **The LuxMarket Inventory Dashboard** is a sophisticated high-end administrative interface designed for luxury retail management. This project focuses on mstering tailwindcss layout, responsive design patterns and precise typography to create a premium user interface.
+**The LuxMarket Inventory Dashboard** is a sophisticated high-end administrative interface designed for luxury retail management. This project focuses on mstering tailwindcss layout, responsive design patterns and precise typography to create a premium user interface.
 
 ### 2. Business Rationale
 
