@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The LuxMarket</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <div>
-        <aside>
-            <h2>The LuxMarket</h2>
-            <nav>
-                <div>Inventory</div>
-                <ul>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Categories</a></li>
-                    <li><a href="#">Analytics</a></li>
+<body class="bg-slate-100 font-sans">
+    <div class="grid grid-cols-1 lg:grid-cols-[auto, 1fr] min-h-screen">
+        <aside class="lg:block w-64 bg-slate-900 text-white p-6">
+            <h1 class="text-3xl text-black-950 font-bold mb-10">The LuxMarket</h1>
+            <nav class="space-y-4">
+                <div class="text-slate-500 text-xs uppercase tracking-widest mb-2">Inventory</div>
+                <ul class="block">
+                    <li><a href="#" class="hover:text-indigo-500">Products</a></li>
+                    <li><a href="#" class="hover:text-indigo-500">Categories</a></li>
+                    <li><a href="#" class="hover:text-indigo-500">Analytics</a></li>
                 </ul>
             </nav>
         </aside>
-        <header>
-            <div><input type="text"></div>
-            <div><button>Action button</button>
-                <div>RM</div>
+        <header class="flex flex-col sticky top-0 backdrop-blur-md border border-slate-200 p-4 flex justify-between items-center">
+            <div class="flex-1 max-w-sm"><input type="search" placeholder="search" class="w-full bg-slate-200 rounded-lg px-4 py-2 text-sm outline-none border-transparent focus:border-indigo-300 transition"></div>
+            <div><button type="submit" class="bg-slate-800 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-slate-700">Action button</button>
+                <div class="w-8 bg-indigo-100 h-8 rounded-full flex justify-center items-center font-bold">RM</div>
             </div>
         </header>
         <main>
-            <section>
-                <h1>Product Management</h1>
-                <article>
-                    <figure>Image</figure>
-                    <div>
+            
+                <h2 class="font-bold text-2xl mb-5 text-center">Product Management</h2>
+                <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <article class="bg-white rounded-3xl border border-slate-300">
+                    <figure class="p-4">Image</figure>
+                    <div class="p-4">
                         <p>Leather Goods</p>
                         <h3>Sienna Suede Tote</h3>
                         <code>SKU: LTH-BAG-09</code>
@@ -41,9 +43,9 @@
                         </footer>
                     </div>
                 </article>
-                <article>
-                    <figure>Image</figure>
-                    <div>
+                <article class="bg-white rounded-3xl border border-slate-300">
+                    <figure class="p-4">Image</figure>
+                    <div class="p-4">
                         <p>Timepieces</p>
                         <h3>Monarch Chronograph</h3>
                         <code>SKU: WCH-2024-X</code>
@@ -55,9 +57,9 @@
                         </footer>
                     </div>
                 </article>
-                <article>
-                    <figure>Image</figure>
-                    <div>
+                <article class="bg-white rounded-3xl border border-slate-300">
+                    <figure class="p-4">Image</figure>
+                    <div class="p-4">
                         <p>Accessories</p>
                         <h3>Azure Silk Scarf</h3>
                         <code>SKU: ACC-SLK-22</code>
@@ -69,9 +71,9 @@
                         </footer>
                     </div>
                 </article>
-                <article>
-                    <figure>Image</figure>
-                    <div>
+                <article class="bg-white rounded-3xl border border-slate-300">
+                    <figure class="p-4">Image</figure>
+                    <div class="p-4">
                         <p>Home Decor</p>
                         <h3>Luminary Candle Set</h3>
                         <code>SKU: HM-LUM-550</code>
